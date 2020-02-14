@@ -10,22 +10,24 @@ namespace App\Helpers;
 
 class StudentHelper
 {
-    private $table = "students";
+    private const table = "students";
     private $db_connection;
+    private $pagination;
 
     public function __construct()
     {
-        $this->db_connection = new PDO($this->table, 'user', 'user');
+        $this->db_connection = new \PDO($this::table, 'user', 'user');
+        $this->pagination = 10;
     }
 
     public function createStudent()
     {
-
+        $this->db_connection->query("INSERT INTO TABLE students VALUE");
     }
 
-    public function readStudent()
+    public function readStudent(int $id)
     {
-
+        //$this->db_connection->query("SELECT * FROM students WHERE id = :x"); // SQL-injection prone
     }
 
     public function updateStudent()
