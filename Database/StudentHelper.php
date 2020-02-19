@@ -8,28 +8,32 @@
 
 namespace App\Helpers;
 
+use PDO;
+
 use App\Models\Student;
 
 class StudentHelper
 {
+    private const connection_string = "mysql:host=192.168.200.79;dbname=1131_vov";
     private const table = "students";
     private $db_connection;
     private $pagination;
 
     public function __construct()
     {
-        $this->db_connection = new \PDO($this::table, 'user', 'user');
-        $this->pagination = 10;
+        $this->db_connection = new PDO($this::connection_string, 'user', 'user');
+        $this->pagination = 50;
     }
 
     public function createStudent()
     {
-        $this->db_connection->query("INSERT INTO TABLE students VALUE");
+        $this->db_connection->query("INSERT INTO " . $this::table. "VALUE");
     }
 
     public function readStudents()
     {
-        return $this->db_connection->query("SELECT * FROM students");
+        $statement = $this->db_connection->query("SELECT * FROM " . $this::table, PDO::FETCH_OBJ);
+        return $statement->fetchAll();
     }
 
     public function readStudent(int $id)
@@ -37,6 +41,7 @@ class StudentHelper
         $statement = $this->db_connection->prepare("SELECT * FROM students WHERE id = :x");
         $statement->bindValue(':x', $id);
         $statement->execute();
+        return $statement->fetchAll();
     }
 
     public function updateStudent(Student $student)

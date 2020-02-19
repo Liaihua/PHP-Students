@@ -1,0 +1,17 @@
+{
+  "name": "Liaihua/PHP-Students",
+  "description": "Simple project from https://github.com/codedokode/pasta/blob/master/student-list.md",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Liaihua",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}

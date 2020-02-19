@@ -11,6 +11,7 @@ namespace App\Models;
 
 class Student
 {
+    private $id;
     private $first_name;
     private $last_name;
     private $sex;
@@ -19,6 +20,15 @@ class Student
     private $email;
     private $birth_year;
     private $local;
+
+    /**
+     * @return int
+     */
+
+    public function getId() : int
+    {
+        return $this->id;
+    }
 
     /**
      * @return string
@@ -83,6 +93,15 @@ class Student
     public function getLocal() : bool
     {
         return $this->local;
+    }
+
+    /**
+     * @param int $id
+     */
+
+    public function setId(int $id)
+    {
+        $this->id = $id;
     }
 
     /**
