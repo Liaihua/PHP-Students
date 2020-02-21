@@ -6,7 +6,7 @@
  * Time: 13:15
  */
 
-namespace App\Helpers;
+namespace App\Database;
 
 use PDO;
 

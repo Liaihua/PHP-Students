@@ -21,11 +21,15 @@ class Student
     private $birth_year;
     private $local;
 
+    public function __construct ()
+    {
+    }
+
     /**
      * @return int
      */
 
-    public function getId() : int
+    public function getId (): int
     {
         return $this->id;
     }
@@ -34,7 +38,7 @@ class Student
      * @return string
      */
 
-    public function getFirstName() : string
+    public function getFirstName (): string
     {
         return $this->first_name;
     }
@@ -42,7 +46,7 @@ class Student
     /**
      * @return string
      */
-    public function getLastName() : string
+    public function getLastName (): string
     {
         return $this->last_name;
     }
@@ -50,7 +54,7 @@ class Student
     /**
      * @return string
      */
-    public function getSex() : string
+    public function getSex (): string
     {
         return $this->sex;
     }
@@ -58,7 +62,7 @@ class Student
     /**
      * @return string
      */
-    public function getGroupNumber() : string
+    public function getGroupNumber (): string
     {
         return $this->group_number;
     }
@@ -66,7 +70,7 @@ class Student
     /**
      * @return integer
      */
-    public function getEgeMarks() : int
+    public function getEgeMarks (): int
     {
         return $this->ege_marks;
     }
@@ -74,7 +78,7 @@ class Student
     /**
      * @return string
      */
-    public function getEmail() : string
+    public function getEmail (): string
     {
         return $this->email;
     }
@@ -82,7 +86,7 @@ class Student
     /**
      * @return integer
      */
-    public function getBirthYear() : int
+    public function getBirthYear (): int
     {
         return $this->birth_year;
     }
@@ -90,7 +94,7 @@ class Student
     /**
      * @return boolean
      */
-    public function getLocal() : bool
+    public function getLocal (): bool
     {
         return $this->local;
     }
@@ -99,7 +103,7 @@ class Student
      * @param int $id
      */
 
-    public function setId(int $id)
+    public function setId ( int $id )
     {
         $this->id = $id;
     }
@@ -107,7 +111,7 @@ class Student
     /**
      * @param string $first_name
      */
-    public function setFirstName(string $first_name)
+    public function setFirstName ( string $first_name )
     {
         $this->first_name = $first_name;
     }
@@ -115,15 +119,15 @@ class Student
     /**
      * @param string $last_name
      */
-    public function setLastName(string $last_name)
+    public function setLastName ( string $last_name )
     {
         $this->last_name = $last_name;
     }
 
     /**
-     * @param srting $sex
+     * @param string $sex
      */
-    public function setSex(string $sex)
+    public function setSex ( string $sex )
     {
         $this->sex = $sex;
     }
@@ -131,7 +135,7 @@ class Student
     /**
      * @param string $group_number
      */
-    public function setGroupNumber(string $group_number)
+    public function setGroupNumber ( string $group_number )
     {
         $this->group_number = $group_number;
     }
@@ -139,7 +143,7 @@ class Student
     /**
      * @param int $ege_marks
      */
-    public function setEgeMarks(int $ege_marks)
+    public function setEgeMarks ( int $ege_marks )
     {
         $this->ege_marks = $ege_marks;
     }
@@ -147,8 +151,24 @@ class Student
     /**
      * @param string $email
      */
-    public function setEmail(string $email)
+    public function setEmail ( string $email )
     {
         $this->email = $email;
+    }
+
+    /**
+     * @param integer $birth_year
+     */
+    public function setBirthYear ( int $birth_year ): void
+    {
+        $this->birth_year = $birth_year;
+    }
+
+    /**
+     * @param bool $local
+     */
+    public function setLocal ( bool $local ): void
+    {
+        $this->local = $local;
     }
 }

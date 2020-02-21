@@ -6,15 +6,13 @@
  * Time: 11:12
  */
 
-
 // Test index script
-//require 'vendor/autoload.php';
+require_once 'vendor/autoload.php';
 
-require_once __DIR__ . '/Database/StudentHelper.php';
-
-use App\Helpers\StudentHelper;
+use App\Database\StudentHelper;
 
 $db = new StudentHelper();
+
 foreach ($db->readStudents() as $item)
 {
     echo "<pre>";
