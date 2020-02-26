@@ -25,12 +25,24 @@ class StudentHelper
         $this->pagination = 50;
     }
 
-    public function createStudent()
+    public function createStudent(Student $student) // SQL-injection prone
     {
-        $this->db_connection->query("INSERT INTO " . $this::table. "VALUE");
+
+        $query = "INSERT INTO " . $this::table . " (first_name, last_name, sex, group_number, ege_marks, email, birth_year, local) VALUE (0, ";
+        $query .=
+            $student->getFirstName()       . ", " .
+            $student->getLastName()        . ", " .
+            $student->getSex()             . ", " .
+            $student->getGroupNumber()     . ", " .
+            $student->getEgeMarks()        . ", " .
+            $student->getEmail()           . ", " .
+            $student->getBirthYear()       . ", " .
+            $student->getLocal()           . "); ";
+        echo $query;
+        return $this->db_connection->exec($query);
     }
 
-    public function readStudents()
+    public function readStudents() : array
     {
         $statement = $this->db_connection->query("SELECT * FROM " . $this::table, PDO::FETCH_OBJ);
         return $statement->fetchAll();
