@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d5ae536-fe7d-4488-8f12-60d05f570a2b" name="Default" comment="Starting to make a project">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Models/Validator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/register.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/Database/StudentHelper.php" afterPath="$PROJECT_DIR$/app/Database/StudentHelper.php" />
+      <change beforePath="$PROJECT_DIR$/app/Database/StudentHelper.php" afterPath="$PROJECT_DIR$/app/Database/StudentGateway.php" />
       <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,8 +55,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Student.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/Student.php">
+      <file leaf-file-name="StudentGateway.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Database/StudentGateway.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <marker date="1583118797225" expanded="true" signature="605:617" ph="INSERT INTO ${this}... " />
+                <marker date="1583118797225" expanded="true" signature="605:723" ph="INSERT INTO students... " />
+                <marker date="1583118797225" expanded="true" signature="605:724" ph="INSERT INTO students... " />
+                <marker date="1583118797225" expanded="true" signature="605:725" ph="INSERT INTO ${$this::table}... " />
+                <marker date="1583118797225" expanded="true" signature="605:728" ph="INSERT INTO ${$this::table}... " />
+                <marker date="1583118797225" expanded="true" signature="605:1236" ph="INSERT INTO ${$this::table}... " />
+                <marker date="1583118797225" expanded="true" signature="1398:1412" ph="SELECT * FRO... ${$this::table}" />
+                <marker date="1583118797225" expanded="true" signature="1592:1628" ph="SELECT * FRO... students" />
+                <marker date="1583118797225" expanded="true" signature="1846:1871" ph="UPDATE TABLE... " />
+                <marker date="1583118797225" expanded="true" signature="1991:2022" ph="DELETE FROM students... " />
+                <marker date="1583118797225" expanded="true" signature="1991:2023" ph="DELETE FROM students... " />
+                <marker date="1583118797225" expanded="true" signature="1991:2026" ph="DELETE FROM students... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/register.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -65,57 +88,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentHelper.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Database/StudentHelper.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="30" column="141" lean-forward="false" selection-start-line="30" selection-start-column="141" selection-end-line="30" selection-end-column="141" />
-              <folding>
-                <element signature="e#111#119#0#PHP" expanded="true" />
-                <marker date="1582689484357" expanded="true" signature="604:616" ph="INSERT INTO ${this}... " />
-                <marker date="1582689484357" expanded="true" signature="604:722" ph="INSERT INTO students... " />
-                <marker date="1582689484357" expanded="true" signature="604:723" ph="INSERT INTO students... " />
-                <marker date="1582689484357" expanded="true" signature="604:724" ph="INSERT INTO ${$this::table}... " />
-                <marker date="1582689484357" expanded="true" signature="604:726" ph="INSERT INTO ${$this::table}... " />
-                <marker date="1582689484357" expanded="true" signature="1342:1356" ph="SELECT * FRO... ${$this::table}" />
-                <marker date="1582689484357" expanded="true" signature="1536:1572" ph="SELECT * FRO... students" />
-                <marker date="1582689484357" expanded="true" signature="1790:1815" ph="UPDATE TABLE... " />
-                <marker date="1582689484357" expanded="true" signature="1935:1966" ph="DELETE FROM students... " />
-                <marker date="1582689484357" expanded="true" signature="1935:1967" ph="DELETE FROM students... " />
-                <marker date="1582689484357" expanded="true" signature="1935:1968" ph="DELETE FROM students... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Типа конкурс/A/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/99f3cfb5-7a26-4f95-95b0-382279ee5c31/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="0" column="153" lean-forward="true" selection-start-line="0" selection-start-column="153" selection-end-line="0" selection-end-column="153" />
+            <state relative-caret-position="0">
+              <caret line="0" column="108" lean-forward="false" selection-start-line="0" selection-start-column="108" selection-end-line="0" selection-end-column="108" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="21" />
-              <folding>
-                <element signature="e#144#175#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="161">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,16 +113,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
               <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autoload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -159,6 +137,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Типа конкурс/A/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -178,10 +166,10 @@
         <option value="$PROJECT_DIR$/vendor/autoload.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/Models/Validator.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/../Типа конкурс/A/index.php" />
-        <option value="$PROJECT_DIR$/app/Database/StudentHelper.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/99f3cfb5-7a26-4f95-95b0-382279ee5c31/console.sql" />
+        <option value="$PROJECT_DIR$/app/Database/StudentHelper.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -202,10 +190,10 @@
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="961" />
-    <option name="width" value="959" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="-1" />
+    <option name="width" value="1920" />
+    <option name="height" value="520" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -223,7 +211,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,6 +244,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,7 +293,8 @@
       <workItem from="1582250953201" duration="6060000" />
       <workItem from="1582596551063" duration="4974000" />
       <workItem from="1582682981464" duration="4819000" />
-      <workItem from="1582689477328" duration="60000" />
+      <workItem from="1582689477328" duration="136000" />
+      <workItem from="1583115400596" duration="3412000" />
     </task>
     <task id="LOCAL-00001" summary="Starting to make a project">
       <created>1581478925006</created>
@@ -318,22 +307,22 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43287000" />
+    <option name="totallyTimeSpent" value="46775000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="961" y="0" width="959" height="1040" extended-state="4" />
+    <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18342541" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09110396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66927373" sideWeight="0.50607735" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13812155" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24008575" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973205" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2265625" sideWeight="0.49392265" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22767857" sideWeight="0.49392265" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -372,23 +361,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Database/StudentHelper.php">
+    <entry file="file://$PROJECT_DIR$/app/Database/StudentGateway.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
           <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
           <folding>
-            <element signature="e#111#119#0#PHP" expanded="true" />
-            <marker date="1582689484357" expanded="true" signature="604:616" ph="INSERT INTO ${this}... " />
-            <marker date="1582689484357" expanded="true" signature="604:722" ph="INSERT INTO students... " />
-            <marker date="1582689484357" expanded="true" signature="604:723" ph="INSERT INTO students... " />
-            <marker date="1582689484357" expanded="true" signature="604:724" ph="INSERT INTO ${$this::table}... " />
-            <marker date="1582689484357" expanded="true" signature="604:726" ph="INSERT INTO ${$this::table}... " />
-            <marker date="1582689484357" expanded="true" signature="1342:1356" ph="SELECT * FRO... ${$this::table}" />
-            <marker date="1582689484357" expanded="true" signature="1536:1572" ph="SELECT * FRO... students" />
-            <marker date="1582689484357" expanded="true" signature="1790:1815" ph="UPDATE TABLE... " />
-            <marker date="1582689484357" expanded="true" signature="1935:1966" ph="DELETE FROM students... " />
-            <marker date="1582689484357" expanded="true" signature="1935:1967" ph="DELETE FROM students... " />
-            <marker date="1582689484357" expanded="true" signature="1935:1968" ph="DELETE FROM students... " />
+            <marker date="1583118797225" expanded="true" signature="605:617" ph="INSERT INTO ${this}... " />
+            <marker date="1583118797225" expanded="true" signature="605:723" ph="INSERT INTO students... " />
+            <marker date="1583118797225" expanded="true" signature="605:724" ph="INSERT INTO students... " />
+            <marker date="1583118797225" expanded="true" signature="605:725" ph="INSERT INTO ${$this::table}... " />
+            <marker date="1583118797225" expanded="true" signature="605:728" ph="INSERT INTO ${$this::table}... " />
+            <marker date="1583118797225" expanded="true" signature="605:1236" ph="INSERT INTO ${$this::table}... " />
+            <marker date="1583118797225" expanded="true" signature="1398:1412" ph="SELECT * FRO... ${$this::table}" />
+            <marker date="1583118797225" expanded="true" signature="1592:1628" ph="SELECT * FRO... students" />
+            <marker date="1583118797225" expanded="true" signature="1846:1871" ph="UPDATE TABLE... " />
+            <marker date="1583118797225" expanded="true" signature="1991:2022" ph="DELETE FROM students... " />
+            <marker date="1583118797225" expanded="true" signature="1991:2023" ph="DELETE FROM students... " />
+            <marker date="1583118797225" expanded="true" signature="1991:2026" ph="DELETE FROM students... " />
           </folding>
         </state>
       </provider>
@@ -405,9 +394,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="21" />
-          <folding>
-            <element signature="e#144#175#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -458,23 +445,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Database/StudentHelper.php">
+    <entry file="file://$PROJECT_DIR$/app/Database/StudentGateway.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
           <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
           <folding>
-            <element signature="e#111#119#0#PHP" expanded="true" />
-            <marker date="1582689484357" expanded="true" signature="604:616" ph="INSERT INTO ${this}... " />
-            <marker date="1582689484357" expanded="true" signature="604:722" ph="INSERT INTO students... " />
-            <marker date="1582689484357" expanded="true" signature="604:723" ph="INSERT INTO students... " />
-            <marker date="1582689484357" expanded="true" signature="604:724" ph="INSERT INTO ${$this::table}... " />
-            <marker date="1582689484357" expanded="true" signature="604:726" ph="INSERT INTO ${$this::table}... " />
-            <marker date="1582689484357" expanded="true" signature="1342:1356" ph="SELECT * FRO... ${$this::table}" />
-            <marker date="1582689484357" expanded="true" signature="1536:1572" ph="SELECT * FRO... students" />
-            <marker date="1582689484357" expanded="true" signature="1790:1815" ph="UPDATE TABLE... " />
-            <marker date="1582689484357" expanded="true" signature="1935:1966" ph="DELETE FROM students... " />
-            <marker date="1582689484357" expanded="true" signature="1935:1967" ph="DELETE FROM students... " />
-            <marker date="1582689484357" expanded="true" signature="1935:1968" ph="DELETE FROM students... " />
+            <marker date="1583118797225" expanded="true" signature="605:617" ph="INSERT INTO ${this}... " />
+            <marker date="1583118797225" expanded="true" signature="605:723" ph="INSERT INTO students... " />
+            <marker date="1583118797225" expanded="true" signature="605:724" ph="INSERT INTO students... " />
+            <marker date="1583118797225" expanded="true" signature="605:725" ph="INSERT INTO ${$this::table}... " />
+            <marker date="1583118797225" expanded="true" signature="605:728" ph="INSERT INTO ${$this::table}... " />
+            <marker date="1583118797225" expanded="true" signature="605:1236" ph="INSERT INTO ${$this::table}... " />
+            <marker date="1583118797225" expanded="true" signature="1398:1412" ph="SELECT * FRO... ${$this::table}" />
+            <marker date="1583118797225" expanded="true" signature="1592:1628" ph="SELECT * FRO... students" />
+            <marker date="1583118797225" expanded="true" signature="1846:1871" ph="UPDATE TABLE... " />
+            <marker date="1583118797225" expanded="true" signature="1991:2022" ph="DELETE FROM students... " />
+            <marker date="1583118797225" expanded="true" signature="1991:2023" ph="DELETE FROM students... " />
+            <marker date="1583118797225" expanded="true" signature="1991:2026" ph="DELETE FROM students... " />
           </folding>
         </state>
       </provider>
@@ -491,9 +478,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="e#144#175#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -528,23 +513,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Database/StudentHelper.php">
+    <entry file="file://$PROJECT_DIR$/app/Database/StudentGateway.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
           <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
           <folding>
-            <element signature="e#111#119#0#PHP" expanded="true" />
-            <marker date="1582689484357" expanded="true" signature="604:616" ph="INSERT INTO ${this}... " />
-            <marker date="1582689484357" expanded="true" signature="604:722" ph="INSERT INTO students... " />
-            <marker date="1582689484357" expanded="true" signature="604:723" ph="INSERT INTO students... " />
-            <marker date="1582689484357" expanded="true" signature="604:724" ph="INSERT INTO ${$this::table}... " />
-            <marker date="1582689484357" expanded="true" signature="604:726" ph="INSERT INTO ${$this::table}... " />
-            <marker date="1582689484357" expanded="true" signature="1342:1356" ph="SELECT * FRO... ${$this::table}" />
-            <marker date="1582689484357" expanded="true" signature="1536:1572" ph="SELECT * FRO... students" />
-            <marker date="1582689484357" expanded="true" signature="1790:1815" ph="UPDATE TABLE... " />
-            <marker date="1582689484357" expanded="true" signature="1935:1966" ph="DELETE FROM students... " />
-            <marker date="1582689484357" expanded="true" signature="1935:1967" ph="DELETE FROM students... " />
-            <marker date="1582689484357" expanded="true" signature="1935:1968" ph="DELETE FROM students... " />
+            <marker date="1583118797225" expanded="true" signature="605:617" ph="INSERT INTO ${this}... " />
+            <marker date="1583118797225" expanded="true" signature="605:723" ph="INSERT INTO students... " />
+            <marker date="1583118797225" expanded="true" signature="605:724" ph="INSERT INTO students... " />
+            <marker date="1583118797225" expanded="true" signature="605:725" ph="INSERT INTO ${$this::table}... " />
+            <marker date="1583118797225" expanded="true" signature="605:728" ph="INSERT INTO ${$this::table}... " />
+            <marker date="1583118797225" expanded="true" signature="605:1236" ph="INSERT INTO ${$this::table}... " />
+            <marker date="1583118797225" expanded="true" signature="1398:1412" ph="SELECT * FRO... ${$this::table}" />
+            <marker date="1583118797225" expanded="true" signature="1592:1628" ph="SELECT * FRO... students" />
+            <marker date="1583118797225" expanded="true" signature="1846:1871" ph="UPDATE TABLE... " />
+            <marker date="1583118797225" expanded="true" signature="1991:2022" ph="DELETE FROM students... " />
+            <marker date="1583118797225" expanded="true" signature="1991:2023" ph="DELETE FROM students... " />
+            <marker date="1583118797225" expanded="true" signature="1991:2026" ph="DELETE FROM students... " />
           </folding>
         </state>
       </provider>
@@ -553,9 +538,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#144#175#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -582,23 +565,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Database/StudentHelper.php">
+    <entry file="file://$PROJECT_DIR$/app/Database/StudentGateway.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
-            <element signature="e#111#119#0#PHP" expanded="true" />
-            <marker date="1582689484357" expanded="true" signature="604:616" ph="INSERT INTO ${this}... " />
-            <marker date="1582689484357" expanded="true" signature="604:722" ph="INSERT INTO students... " />
-            <marker date="1582689484357" expanded="true" signature="604:723" ph="INSERT INTO students... " />
-            <marker date="1582689484357" expanded="true" signature="604:724" ph="INSERT INTO ${$this::table}... " />
-            <marker date="1582689484357" expanded="true" signature="604:726" ph="INSERT INTO ${$this::table}... " />
-            <marker date="1582689484357" expanded="true" signature="1342:1356" ph="SELECT * FRO... ${$this::table}" />
-            <marker date="1582689484357" expanded="true" signature="1536:1572" ph="SELECT * FRO... students" />
-            <marker date="1582689484357" expanded="true" signature="1790:1815" ph="UPDATE TABLE... " />
-            <marker date="1582689484357" expanded="true" signature="1935:1966" ph="DELETE FROM students... " />
-            <marker date="1582689484357" expanded="true" signature="1935:1967" ph="DELETE FROM students... " />
-            <marker date="1582689484357" expanded="true" signature="1935:1968" ph="DELETE FROM students... " />
+            <marker date="1583118797225" expanded="true" signature="605:617" ph="INSERT INTO ${this}... " />
+            <marker date="1583118797225" expanded="true" signature="605:723" ph="INSERT INTO students... " />
+            <marker date="1583118797225" expanded="true" signature="605:724" ph="INSERT INTO students... " />
+            <marker date="1583118797225" expanded="true" signature="605:725" ph="INSERT INTO ${$this::table}... " />
+            <marker date="1583118797225" expanded="true" signature="605:728" ph="INSERT INTO ${$this::table}... " />
+            <marker date="1583118797225" expanded="true" signature="605:1236" ph="INSERT INTO ${$this::table}... " />
+            <marker date="1583118797225" expanded="true" signature="1398:1412" ph="SELECT * FRO... ${$this::table}" />
+            <marker date="1583118797225" expanded="true" signature="1592:1628" ph="SELECT * FRO... students" />
+            <marker date="1583118797225" expanded="true" signature="1846:1871" ph="UPDATE TABLE... " />
+            <marker date="1583118797225" expanded="true" signature="1991:2022" ph="DELETE FROM students... " />
+            <marker date="1583118797225" expanded="true" signature="1991:2023" ph="DELETE FROM students... " />
+            <marker date="1583118797225" expanded="true" signature="1991:2026" ph="DELETE FROM students... " />
           </folding>
         </state>
       </provider>
@@ -607,9 +590,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#144#175#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -636,23 +617,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Database/StudentHelper.php">
+    <entry file="file://$PROJECT_DIR$/app/Database/StudentGateway.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="29" column="101" lean-forward="false" selection-start-line="29" selection-start-column="101" selection-end-line="29" selection-end-column="101" />
           <folding>
-            <element signature="e#111#119#0#PHP" expanded="true" />
-            <marker date="1582689484357" expanded="true" signature="604:616" ph="INSERT INTO ${this}... " />
-            <marker date="1582689484357" expanded="true" signature="604:722" ph="INSERT INTO students... " />
-            <marker date="1582689484357" expanded="true" signature="604:723" ph="INSERT INTO students... " />
-            <marker date="1582689484357" expanded="true" signature="604:724" ph="INSERT INTO ${$this::table}... " />
-            <marker date="1582689484357" expanded="true" signature="604:726" ph="INSERT INTO ${$this::table}... " />
-            <marker date="1582689484357" expanded="true" signature="1342:1356" ph="SELECT * FRO... ${$this::table}" />
-            <marker date="1582689484357" expanded="true" signature="1536:1572" ph="SELECT * FRO... students" />
-            <marker date="1582689484357" expanded="true" signature="1790:1815" ph="UPDATE TABLE... " />
-            <marker date="1582689484357" expanded="true" signature="1935:1966" ph="DELETE FROM students... " />
-            <marker date="1582689484357" expanded="true" signature="1935:1967" ph="DELETE FROM students... " />
-            <marker date="1582689484357" expanded="true" signature="1935:1968" ph="DELETE FROM students... " />
+            <marker date="1583118797225" expanded="true" signature="605:617" ph="INSERT INTO ${this}... " />
+            <marker date="1583118797225" expanded="true" signature="605:723" ph="INSERT INTO students... " />
+            <marker date="1583118797225" expanded="true" signature="605:724" ph="INSERT INTO students... " />
+            <marker date="1583118797225" expanded="true" signature="605:725" ph="INSERT INTO ${$this::table}... " />
+            <marker date="1583118797225" expanded="true" signature="605:728" ph="INSERT INTO ${$this::table}... " />
+            <marker date="1583118797225" expanded="true" signature="605:1236" ph="INSERT INTO ${$this::table}... " />
+            <marker date="1583118797225" expanded="true" signature="1398:1412" ph="SELECT * FRO... ${$this::table}" />
+            <marker date="1583118797225" expanded="true" signature="1592:1628" ph="SELECT * FRO... students" />
+            <marker date="1583118797225" expanded="true" signature="1846:1871" ph="UPDATE TABLE... " />
+            <marker date="1583118797225" expanded="true" signature="1991:2022" ph="DELETE FROM students... " />
+            <marker date="1583118797225" expanded="true" signature="1991:2023" ph="DELETE FROM students... " />
+            <marker date="1583118797225" expanded="true" signature="1991:2026" ph="DELETE FROM students... " />
           </folding>
         </state>
       </provider>
@@ -665,23 +646,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Database/StudentHelper.php">
+    <entry file="file://$PROJECT_DIR$/app/Database/StudentGateway.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="17" column="69" lean-forward="false" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
           <folding>
-            <element signature="e#111#119#0#PHP" expanded="true" />
-            <marker date="1582689484357" expanded="true" signature="604:616" ph="INSERT INTO ${this}... " />
-            <marker date="1582689484357" expanded="true" signature="604:722" ph="INSERT INTO students... " />
-            <marker date="1582689484357" expanded="true" signature="604:723" ph="INSERT INTO students... " />
-            <marker date="1582689484357" expanded="true" signature="604:724" ph="INSERT INTO ${$this::table}... " />
-            <marker date="1582689484357" expanded="true" signature="604:726" ph="INSERT INTO ${$this::table}... " />
-            <marker date="1582689484357" expanded="true" signature="1342:1356" ph="SELECT * FRO... ${$this::table}" />
-            <marker date="1582689484357" expanded="true" signature="1536:1572" ph="SELECT * FRO... students" />
-            <marker date="1582689484357" expanded="true" signature="1790:1815" ph="UPDATE TABLE... " />
-            <marker date="1582689484357" expanded="true" signature="1935:1966" ph="DELETE FROM students... " />
-            <marker date="1582689484357" expanded="true" signature="1935:1967" ph="DELETE FROM students... " />
-            <marker date="1582689484357" expanded="true" signature="1935:1968" ph="DELETE FROM students... " />
+            <marker date="1583118797225" expanded="true" signature="605:617" ph="INSERT INTO ${this}... " />
+            <marker date="1583118797225" expanded="true" signature="605:723" ph="INSERT INTO students... " />
+            <marker date="1583118797225" expanded="true" signature="605:724" ph="INSERT INTO students... " />
+            <marker date="1583118797225" expanded="true" signature="605:725" ph="INSERT INTO ${$this::table}... " />
+            <marker date="1583118797225" expanded="true" signature="605:728" ph="INSERT INTO ${$this::table}... " />
+            <marker date="1583118797225" expanded="true" signature="605:1236" ph="INSERT INTO ${$this::table}... " />
+            <marker date="1583118797225" expanded="true" signature="1398:1412" ph="SELECT * FRO... ${$this::table}" />
+            <marker date="1583118797225" expanded="true" signature="1592:1628" ph="SELECT * FRO... students" />
+            <marker date="1583118797225" expanded="true" signature="1846:1871" ph="UPDATE TABLE... " />
+            <marker date="1583118797225" expanded="true" signature="1991:2022" ph="DELETE FROM students... " />
+            <marker date="1583118797225" expanded="true" signature="1991:2023" ph="DELETE FROM students... " />
+            <marker date="1583118797225" expanded="true" signature="1991:2026" ph="DELETE FROM students... " />
           </folding>
         </state>
       </provider>
@@ -778,10 +759,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Student.php">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/99f3cfb5-7a26-4f95-95b0-382279ee5c31/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="108" lean-forward="false" selection-start-line="0" selection-start-column="108" selection-end-line="0" selection-end-column="108" />
           <folding />
         </state>
       </provider>
@@ -794,6 +775,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Типа конкурс/A/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/Validator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -802,49 +791,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/app/Models/Student.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="21" />
-          <folding>
-            <element signature="e#144#175#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Типа конкурс/A/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="-3372">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Database/StudentHelper.php">
+    <entry file="file://$PROJECT_DIR$/app/Database/StudentGateway.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="30" column="141" lean-forward="false" selection-start-line="30" selection-start-column="141" selection-end-line="30" selection-end-column="141" />
+        <state relative-caret-position="138">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#111#119#0#PHP" expanded="true" />
-            <marker date="1582689484357" expanded="true" signature="604:616" ph="INSERT INTO ${this}... " />
-            <marker date="1582689484357" expanded="true" signature="604:722" ph="INSERT INTO students... " />
-            <marker date="1582689484357" expanded="true" signature="604:723" ph="INSERT INTO students... " />
-            <marker date="1582689484357" expanded="true" signature="604:724" ph="INSERT INTO ${$this::table}... " />
-            <marker date="1582689484357" expanded="true" signature="604:726" ph="INSERT INTO ${$this::table}... " />
-            <marker date="1582689484357" expanded="true" signature="1342:1356" ph="SELECT * FRO... ${$this::table}" />
-            <marker date="1582689484357" expanded="true" signature="1536:1572" ph="SELECT * FRO... students" />
-            <marker date="1582689484357" expanded="true" signature="1790:1815" ph="UPDATE TABLE... " />
-            <marker date="1582689484357" expanded="true" signature="1935:1966" ph="DELETE FROM students... " />
-            <marker date="1582689484357" expanded="true" signature="1935:1967" ph="DELETE FROM students... " />
-            <marker date="1582689484357" expanded="true" signature="1935:1968" ph="DELETE FROM students... " />
+            <marker date="1583118797225" expanded="true" signature="605:617" ph="INSERT INTO ${this}... " />
+            <marker date="1583118797225" expanded="true" signature="605:723" ph="INSERT INTO students... " />
+            <marker date="1583118797225" expanded="true" signature="605:724" ph="INSERT INTO students... " />
+            <marker date="1583118797225" expanded="true" signature="605:725" ph="INSERT INTO ${$this::table}... " />
+            <marker date="1583118797225" expanded="true" signature="605:728" ph="INSERT INTO ${$this::table}... " />
+            <marker date="1583118797225" expanded="true" signature="605:1236" ph="INSERT INTO ${$this::table}... " />
+            <marker date="1583118797225" expanded="true" signature="1398:1412" ph="SELECT * FRO... ${$this::table}" />
+            <marker date="1583118797225" expanded="true" signature="1592:1628" ph="SELECT * FRO... students" />
+            <marker date="1583118797225" expanded="true" signature="1846:1871" ph="UPDATE TABLE... " />
+            <marker date="1583118797225" expanded="true" signature="1991:2022" ph="DELETE FROM students... " />
+            <marker date="1583118797225" expanded="true" signature="1991:2023" ph="DELETE FROM students... " />
+            <marker date="1583118797225" expanded="true" signature="1991:2026" ph="DELETE FROM students... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/99f3cfb5-7a26-4f95-95b0-382279ee5c31/console.sql">
+    <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="0" column="153" lean-forward="true" selection-start-line="0" selection-start-column="153" selection-end-line="0" selection-end-column="153" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>

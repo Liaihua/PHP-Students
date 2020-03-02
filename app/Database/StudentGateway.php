@@ -12,7 +12,7 @@ use PDO;
 
 use App\Models\Student;
 
-class StudentHelper
+class StudentGateway
 {
     private const connection_string = "mysql:host=192.168.200.79;dbname=1131_vov";
     private const table = "students";
