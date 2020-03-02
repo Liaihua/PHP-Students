@@ -28,17 +28,15 @@ class StudentHelper
     public function createStudent(Student $student) // SQL-injection prone
     {
 
-        $query = "INSERT INTO " . $this::table . " (first_name, last_name, sex, group_number, ege_marks, email, birth_year, local) VALUE (0, ";
-        $query .=
-            $student->getFirstName()       . ", " .
-            $student->getLastName()        . ", " .
-            $student->getSex()             . ", " .
-            $student->getGroupNumber()     . ", " .
-            $student->getEgeMarks()        . ", " .
-            $student->getEmail()           . ", " .
-            $student->getBirthYear()       . ", " .
-            $student->getLocal()           . "); ";
-        echo $query;
+        $query = "INSERT INTO " . $this::table . " (first_name, last_name, sex, group_number, ege_marks, email, birth_year, local) VALUE (" .
+            "\"" . $student->getFirstName()   . "\""   . ", " .
+            "\"" . $student->getLastName()    . "\""   . ", " .
+            "\"" . $student->getSex()         . "\""   . ", " .
+            "\"" . $student->getGroupNumber() . "\""   . ", " .
+                   $student->getEgeMarks()             . ", " .
+            "\"" . $student->getEmail()       . "\""   . ", " .
+                   $student->getBirthYear()            . ", " .
+                   $student->getLocal()                . "); ";
         return $this->db_connection->exec($query);
     }
 
